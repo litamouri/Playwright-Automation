@@ -1,9 +1,9 @@
 This project automates product search and add-to-cart actions using Playwright. 
 It ensures a seamless end-to-end testing process for e-commerce applications.
 
-URL: https://automationexercise.com/
+**URL**: https://automationexercise.com/
 
-🚀 Features
+🚀 **Features**
 
 Automated product search
 
@@ -15,13 +15,13 @@ Cross-browser testing (Chromium, Firefox, WebKit)
 
 Detailed reports & screenshots
 
-📌 Prerequisites
+📌 **Prerequisites**
 
 Node.js (>= 16.x)
 
 npm or yarn
 
-📦 Installation
+📦 **Installation**
 
 Clone the repository:
 
@@ -31,11 +31,11 @@ Install dependencies:
 
 npm install
 
-Install Playwright browsers:
+**Install Playwright browsers:**
 
 npx playwright install
 
-▶️ Running Tests
+▶️ **Running Tests**
 
 Run all tests:
 
@@ -45,17 +45,17 @@ Run tests in headed mode:
 
 npx playwright test --headed
 
-Run tests in a specific browser:
+**Run tests in a specific browser:**
 
 npx playwright test --browser=chromium
 
-📝 Test Structure
+📝 **Test Structure**
 
 tests/1.searchProducts.spec.js & tests/2.addToCart.spec.js → Contains test cases for searching and adding items to the cart.
 
 playwright.config.js → Configuration settings for test execution.
 
-📊 Reporting
+📊 **Reporting**
 
 Generate and view reports:
 
@@ -70,7 +70,7 @@ npx playwright show-report
 
 
 
-🛠️ Debugging
+🛠️ **Debugging**
 
 Use Playwright’s UI mode for debugging:
 
